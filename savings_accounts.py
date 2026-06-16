@@ -18,7 +18,7 @@ class SavingsAccount(Account):
             return super().writhdraw(amount)
            
         else:
-           print(f"Denied: Amount exceeds limit (${self.writhdraw_limit}) or insufficient funds.")
+           print(f"Denied: Amount is more than  (${self.writhdraw_limit}) or insufficient funds.")
         
         
 print("---Savings Account---")
